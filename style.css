@@ -226,6 +226,13 @@ code {
     margin-bottom: 1rem;
 }
 
+.apply-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
 .apply-button {
     display: inline-block;
     background: #4ade80;
@@ -241,6 +248,16 @@ code {
 .apply-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);
+}
+
+.apply-button.secondary {
+    background: transparent;
+    border: 2px solid #4ade80;
+    color: #4ade80;
+}
+
+.apply-button.secondary:hover {
+    background: rgba(74, 222, 128, 0.1);
 }
 
 .requirements {
